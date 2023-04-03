@@ -1,0 +1,4 @@
+"key","ENG",""
+"Zach","Zach",""
+"0","I have a towel [InventoryManager.HasItem(Towel)]",""
+"1","I don't have A TOWEL [InventoryManager.HasItem(Towel)]",""

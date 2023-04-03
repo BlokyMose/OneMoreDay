@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  m_GroupName: Characters
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ff5168fad81c17c4fa865b49d4d57b38
+  m_SerializeEntries:
+  - m_GUID: fc8e41f333dba0543a8c7c9e16c68cf9
+    m_Address: Bambang
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - characters
+  - m_GUID: 4eb4ac96881417e45b1e2cee844d1ee1
+    m_Address: Eugene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - characters
+  - m_GUID: 2c813d6307bf42c49bb0ff08daa4182d
+    m_Address: Gabriel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - characters
+  - m_GUID: 7358150c162f5f041a48386f4430ffc6
+    m_Address: Zach
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - characters
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f92b4eeecbb86714f8b1a650eb998f8a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cf1924cbcd239fe4a9bd3cb4433e7a7a, type: 2}
+    - {fileID: 11400000, guid: 496bec5f8e8f6b340b036528df9bf8a2, type: 2}

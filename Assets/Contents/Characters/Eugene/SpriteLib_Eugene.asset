@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: SpriteLib_Eugene
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: default
+    m_Hash: -480378657
+    m_CategoryList:
+    - m_Name: abdomen
+      m_Hash: 149523304
+      m_Sprite: {fileID: 21300000, guid: 6f3108c3222f35546a29392cb713828a, type: 3}
+    - m_Name: arm_left
+      m_Hash: 1470022308
+      m_Sprite: {fileID: 21300000, guid: 8bec2db27802ed74cb5710d0480b6c3b, type: 3}
+    - m_Name: arm_right
+      m_Hash: 641008298
+      m_Sprite: {fileID: 21300000, guid: f64157a64eb9bd44bbc6cd4dd288c4a5, type: 3}
+    - m_Name: eye_below_left
+      m_Hash: 1896355932
+      m_Sprite: {fileID: 21300000, guid: 42fda0740847aff49983713c72bb6527, type: 3}
+    - m_Name: eye_below_right
+      m_Hash: -1787433378
+      m_Sprite: {fileID: 21300000, guid: e4c2f4ef074c8f947a0787a7e4fbde35, type: 3}
+    - m_Name: eye_left
+      m_Hash: 1031805641
+      m_Sprite: {fileID: 21300000, guid: 27de3d2f9525edd44b1a0a952f67b413, type: 3}
+    - m_Name: eye_right
+      m_Hash: 358351255
+      m_Sprite: {fileID: 21300000, guid: d686d3eae068e1a4dbdc976f7d9061bc, type: 3}
+    - m_Name: eye_upper_left
+      m_Hash: -1920700566
+      m_Sprite: {fileID: 21300000, guid: a55d9d72faccfdd41b5963fd332bb762, type: 3}
+    - m_Name: eye_upper_right
+      m_Hash: 1513355184
+      m_Sprite: {fileID: 21300000, guid: e14d6819ac18ead4fbb9cf0d5f2f4207, type: 3}
+    - m_Name: foot_left
+      m_Hash: -862565086
+      m_Sprite: {fileID: 21300000, guid: b56d7d71bae08c44a86658f058f116c8, type: 3}
+    - m_Name: foot_right
+      m_Hash: 578104368
+      m_Sprite: {fileID: 21300000, guid: aca969fee47510b48bc44725a3d894bd, type: 3}
+    - m_Name: hair
+      m_Hash: -1661509351
+      m_Sprite: {fileID: 21300000, guid: 852e822e485c46c4fa52366d28edfe83, type: 3}
+    - m_Name: hair_back
+      m_Hash: -1275169542
+      m_Sprite: {fileID: 21300000, guid: cd54640165f9b8e4b9b721239ed10d53, type: 3}
+    - m_Name: hand_left
+      m_Hash: -1266709075
+      m_Sprite: {fileID: 21300000, guid: b71df6d18681fdd4ba4e89de1a98c751, type: 3}
+    - m_Name: hand_right
+      m_Hash: 1594514241
+      m_Sprite: {fileID: 21300000, guid: d53b0f40884ca534196dcda1d5ca2a84, type: 3}
+    - m_Name: head
+      m_Hash: -1477183844
+      m_Sprite: {fileID: 21300000, guid: 5e813e00fb8dcc741b85e0f10666bf5b, type: 3}
+    - m_Name: knee_left
+      m_Hash: -1651956581
+      m_Sprite: {fileID: 21300000, guid: d3c7e9debb9aee94eba8445cfdbc9209, type: 3}
+    - m_Name: knee_right
+      m_Hash: -1869006735
+      m_Sprite: {fileID: 21300000, guid: 52bf04b5bea490747bfaba0b57cecebc, type: 3}
+    - m_Name: nose
+      m_Hash: -2130940717
+      m_Sprite: {fileID: 21300000, guid: 934d467b54d15c94aa07bd97cd4c9804, type: 3}
+    - m_Name: shoulder_left
+      m_Hash: 1705644811
+      m_Sprite: {fileID: 21300000, guid: b686e2edd8968634995fc731a41017dd, type: 3}
+    - m_Name: shoulder_right
+      m_Hash: 1617856514
+      m_Sprite: {fileID: 21300000, guid: 49176675ded977c4fa73038de83d462b, type: 3}
+    - m_Name: thigh_left
+      m_Hash: 2145471114
+      m_Sprite: {fileID: 21300000, guid: 113689ec26bea664882f11489dd7a976, type: 3}
+    - m_Name: thigh_right
+      m_Hash: -87330579
+      m_Sprite: {fileID: 21300000, guid: 3f1981683500dec4f8bcbd16b7823c70, type: 3}

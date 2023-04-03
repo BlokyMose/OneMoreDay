@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: test_towel_dt
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"conditions":[{"valueA":{"_name":"InventoryManager.HasItem(Towel)","_targetVariableID":"8fcb4b31-90b0-4058-8ee1-b91db20bab57"},"valueB":{"_value":"true"},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"valueA":{"_name":"myString","_targetVariableID":"c31c7879-2b30-4a1a-a087-7bff9f278581"},"valueB":{"_name":"InventoryManager.HasItem(Towel)","_targetVariableID":"8fcb4b31-90b0-4058-8ee1-b91db20bab57"},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}],"_position":{"x":376.0,"y":204.0},"$type":"NodeCanvas.DialogueTrees.MultipleConditionNode","$id":"0"},{"statement":{"_text":"I
+    have a towel","_textIndex":"0"},"_actorName":"Zach","_actorParameterID":"94c9d8b8-a38f-4988-a9de-59e31947c681","_position":{"x":333.0,"y":374.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"1"},{"statement":{"_text":"I
+    don''t have a towel","_textIndex":"1"},"_position":{"x":568.0,"y":380.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"InventoryManager.HasItem(Towel)":{"_value":"true","_name":"InventoryManager.HasItem(Towel)","_id":"8fcb4b31-90b0-4058-8ee1-b91db20bab57","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"myString":{"_value":"wow","_name":"myString","_id":"c31c7879-2b30-4a1a-a087-7bff9f278581","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"actorParameters":[{"_keyName":"Zach","_id":"94c9d8b8-a38f-4988-a9de-59e31947c681"}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: 0, y: 0}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Zach
+    _id: 94c9d8b8-a38f-4988-a9de-59e31947c681
+    _actorObject: {fileID: 0}

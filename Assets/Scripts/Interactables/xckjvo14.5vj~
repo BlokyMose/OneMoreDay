@@ -1,0 +1,42 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Interactables
+{
+    public class UIModifier : Interactable
+    {
+        public enum UIStatus { CanShow, CannotShow, LetBe }
+        [SerializeField] UIStatus inventory = UIStatus.LetBe;
+        [SerializeField] UIStatus doomclock = UIStatus.LetBe;
+        [SerializeField] UIStatus phone = UIStatus.LetBe;
+        [SerializeField] bool destroyAfterInteract = true;
+
+        [Header("Optional:")]
+        [SerializeField] MonologueHook monologueHook;
+
+        protected override void Awake()
+        {
+            base.Awake();
+            cursorImage = CursorImageManager.CursorImage.Grab;
+            if (!monologueHook) monologueHook = gameObject.GetComponent<MonologueHook>();
+
+        }
+
+        public override void Interact()
+        {
+            InventoryManager.Instance.CanShow = inventory == UIStatus.CanShow ? true : inventory == UIStatus.CannotShow ? false : InventoryManager.Instance.CanShow;
+            DoomclockManager.Instance.CanShow = doomclock == UIStatus.CanShow ? true : doomclock == UIStatus.CannotShow ? false : DoomclockManager.Instance.CanShow;
+            PhoneManager.Instance.CanShow = phone == UIStatus.CanShow ? true : phone == UIStatus.CannotShow ? false : PhoneManager.Instance.CanShow;
+
+            if (destroyAfterInteract) StartCoroutine(DelayToDestroy(0.1f));
+            IEnumerator DelayToDestroy(float delay)
+            {
+                yield return new WaitForSeconds(delay);
+                Destroy(gameObject);
+            }
+
+            if (monologueHook) monologueHook.SayMonologue(0);
+        }
+    }
+}

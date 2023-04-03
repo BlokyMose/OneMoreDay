@@ -1,0 +1,39 @@
+[group] {name:expression} {displayIndex:1}
+[none] {_none_} {-1}
+[🤔] {listening} {0}
+[😦] {sad} {1}
+[🙂] {happyBit} {2}
+[😁] {happy} {3}
+[😕] {confused} {4}
+[😮] {surprised} {5}
+[😠] {angry} {6}
+[🤨] {untrust} {7}
+
+[group] {name:gesture} {displayIndex:0}
+[_none_] {-1}
+[speaking] {0}
+[nod] {1}
+[thinking] {2}
+[pondering] {3}
+[this] {4}
+[noIdea] {5}
+[leanBack] {6}
+
+[group] checkKey {displayIndex:0}
+[==] {0} {Equal}
+[!=] {1} {NotEqual}
+[<] {2} {GreaterThan}
+[>] {3} {LessThan}
+[>=] {4} {GreaterOrEqual}
+[<=] {5} {LessOrEqual}
+
+[group] {name:setKey} {displayIndex:0}
+[=] {0} {Equal}
+[+=] {1} {Increment}
+[-=] {2} {Decrement}
+[*=] {3} {Multiplication}
+[/=] {4} {Division}
+
+[group] branch
+[group] actor
+[group] var

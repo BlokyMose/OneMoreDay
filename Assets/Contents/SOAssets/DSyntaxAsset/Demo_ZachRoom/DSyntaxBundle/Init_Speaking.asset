@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ff24f326bf8b24fb37cd0ecc28fbbf, type: 3}
+  m_Name: Init_Speaking
+  m_EditorClassIdentifier: 
+  title: Quest
+  mode: 1
+  dSyntax: '[branch] {start}
+
+    [Gabriel] Could you get me a box in the 2nd floor
+
+
+    [choices]
+    {Help Gabriel get a box on 2nd floor}
+
+    Sure {true}
+
+    Nope {false}
+
+
+    [branch]
+    {true}
+
+    [Zach] Sure
+
+    [Gabriel] Thankis!
+
+    [set] do_quest = true
+
+
+    [branch]
+    {false}
+
+    [Zach] Nah
+
+    [Gabriel] Well... Who needs your help anyway
+
+    [set]
+    do_quest = false'
+  settings:
+    overrideMaxCharacters: -1
+    actorsAreFacingPlayer: 1
+  csv:
+    textAsset: {fileID: 4900000, guid: d39bf829d0c949c47a3b4f4d6b5eb733, type: 3}
+  saveFolder: Assets/Contents/SOAssets/DSyntaxAsset

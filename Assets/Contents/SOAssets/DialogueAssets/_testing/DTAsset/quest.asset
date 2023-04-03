@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: quest
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"statement":{"_text":"Zach,
+    I need you to do something","_expression":3,"_gesture":0,"_textIndex":"0"},"_actorName":"Gabriel","_actorParameterID":"0a812ef5-d8e4-4877-b941-3b5eb72d484a","_position":{"x":800.0,"y":400.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"0"},{"statement":{"_text":"wha","_expression":7,"_textIndex":"1"},"_actorName":"Zach","_actorParameterID":"6b6e4ebc-005d-4906-a059-359ff43cbd36","_position":{"x":800.0,"y":500.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"1"},{"statement":{"_text":"Get
+    me a box in the 2nd floor, please","_textIndex":"2"},"_actorName":"Gabriel","_actorParameterID":"0a812ef5-d8e4-4877-b941-3b5eb72d484a","_position":{"x":800.0,"y":600.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"title":"Shoud
+    I help him get a box?","textIndex":"5","availableChoices":[{"statement":{"_text":"Nah","_textIndex":"3"}},{"statement":{"_text":"Sure","_textIndex":"4"}}],"_actorName":"Zach","_actorParameterID":"6b6e4ebc-005d-4906-a059-359ff43cbd36","_position":{"x":800.0,"y":700.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"3"},{"statement":{"_text":"Why
+    would I do that?","_textIndex":"6"},"_actorName":"Zach","_actorParameterID":"6b6e4ebc-005d-4906-a059-359ff43cbd36","_position":{"x":800.0,"y":900.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"4"},{"statement":{"_text":"C''mon","_textIndex":"7"},"_actorName":"Gabriel","_actorParameterID":"0a812ef5-d8e4-4877-b941-3b5eb72d484a","_position":{"x":800.0,"y":1000.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"5"},{"statement":{"_text":"no.","_textIndex":"8"},"_actorName":"Zach","_actorParameterID":"6b6e4ebc-005d-4906-a059-359ff43cbd36","_position":{"x":800.0,"y":1100.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"6"},{"_action":{"valueA":{"_name":"test_q_getBox","_targetVariableID":"784cc2c6-668a-4f91-97d1-44239ab215c0"},"valueB":{"_value":"false"},"$type":"NodeCanvas.Tasks.Actions.SetVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"_position":{"x":800.0,"y":1200.0},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"7"},{"statement":{"_text":"Fine","_textIndex":"9"},"_actorName":"Zach","_actorParameterID":"6b6e4ebc-005d-4906-a059-359ff43cbd36","_position":{"x":1050.0,"y":900.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"8"},{"statement":{"_text":"Off
+    you go!","_expression":3,"_gesture":4,"_textIndex":"10"},"_actorName":"Gabriel","_actorParameterID":"0a812ef5-d8e4-4877-b941-3b5eb72d484a","_position":{"x":1050.0,"y":1000.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"_action":{"valueA":{"_name":"test_q_getBox","_targetVariableID":"784cc2c6-668a-4f91-97d1-44239ab215c0"},"valueB":{"_value":"true"},"$type":"NodeCanvas.Tasks.Actions.SetVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"_position":{"x":1050.0,"y":1100.0},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"10"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"test_q_getBox":{"_value":"false","_name":"test_q_getBox","_id":"784cc2c6-668a-4f91-97d1-44239ab215c0","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"actorParameters":[{"_keyName":"Gabriel","_id":"0a812ef5-d8e4-4877-b941-3b5eb72d484a"},{"_keyName":"Zach","_id":"6b6e4ebc-005d-4906-a059-359ff43cbd36"}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -419, y: -539}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Gabriel
+    _id: 0a812ef5-d8e4-4877-b941-3b5eb72d484a
+    _actorObject: {fileID: 0}
+  - _keyName: Zach
+    _id: 6b6e4ebc-005d-4906-a059-359ff43cbd36
+    _actorObject: {fileID: 0}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edb8eb7125ea44f68bbe616b44fa9bc, type: 3}
+  m_Name: Hierarchy_Color_Palette
+  m_EditorClassIdentifier: 
+  colorDesigns:
+  - token: ___________________________[Characters]
+    newName: "\u2193 Characters"
+    textColor: {r: 0.42656, g: 0.9245283, b: 0.3532396, a: 1}
+    backgroundColor: {r: 0.21517558, g: 0.3679245, b: 0.20305268, a: 1}
+    textAlignment: 4
+    fontStyle: 3
+    textOffset: {x: 0, y: 0}
+    backgroundRectOffset: {x: 0, y: 0}
+  - token: ___________________________[Environement]
+    newName: "\u2193 Environment"
+    textColor: {r: 0.35294124, g: 0.9043708, b: 0.9254902, a: 1}
+    backgroundColor: {r: 0.20392157, g: 0.36862746, b: 0.3588609, a: 1}
+    textAlignment: 4
+    fontStyle: 3
+    textOffset: {x: 0, y: 0}
+    backgroundRectOffset: {x: 0, y: 0}
+  - token: ___________________________[Objects]
+    newName: "\u2193 Objects"
+    textColor: {r: 0.9254902, g: 0.6958581, b: 0.35294124, a: 1}
+    backgroundColor: {r: 0.36862746, g: 0.30530182, b: 0.20392157, a: 1}
+    textAlignment: 4
+    fontStyle: 3
+    textOffset: {x: 0, y: 0}
+    backgroundRectOffset: {x: 0, y: 0}
+  - token: ___________________________[Extra]
+    newName: "\u2193 Extra"
+    textColor: {r: 0.8189541, g: 0.35294124, b: 0.9254902, a: 1}
+    backgroundColor: {r: 0.35278204, g: 0.20392157, b: 0.36862746, a: 1}
+    textAlignment: 4
+    fontStyle: 3
+    textOffset: {x: 0, y: 0}
+    backgroundRectOffset: {x: 0, y: 0}
+  - token: StandingPos
+    newName: StandingPos
+    textColor: {r: 0.49411762, g: 1, b: 0.5387242, a: 1}
+    backgroundColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+    textAlignment: 0
+    fontStyle: 0
+    textOffset: {x: 18, y: 0}
+    backgroundRectOffset: {x: 16, y: 0}

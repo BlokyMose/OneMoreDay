@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a834a6f603249354f81277892cf6392d, type: 3}
+  m_Name: GS_State_1
+  m_EditorClassIdentifier: 
+  stateName: State_1
+  stages:
+  - stageName: state_init
+  - stageName: state_x
+  objects:
+  - {fileID: 11400000, guid: 5f66531ce0d661b4eadb69ceaa0f64d3, type: 2}
+  - {fileID: 11400000, guid: b5a64e07fab0716479a8414a31c490d7, type: 2}

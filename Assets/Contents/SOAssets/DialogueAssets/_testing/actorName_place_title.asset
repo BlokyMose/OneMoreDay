@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: actorName_place_title
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"statement":{"_text":"Let''s
+    choose!","_textIndex":"0"},"_actorName":"Zach","_actorParameterID":"8bf251ba-208e-41ca-aaf8-aeab906dab5e","_position":{"x":800.0,"y":400.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"0"},{"availableChoices":[{"statement":{"_text":"Go
+    to branch_one","_textIndex":"1"},"condition":{"valueA":{"_name":""},"valueB":{},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"}},{"isUnfolded":false,"statement":{"_text":"Go
+    to branch_two","_textIndex":"2"}}],"_actorName":"Zach","_actorParameterID":"8bf251ba-208e-41ca-aaf8-aeab906dab5e","_position":{"x":800.0,"y":500.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"1"},{"statement":{"_text":"We
+    are in branch_one","_textIndex":"3"},"_actorName":"Zach","_actorParameterID":"8bf251ba-208e-41ca-aaf8-aeab906dab5e","_position":{"x":800.0,"y":700.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"statement":{"_text":"We
+    are in branch_two","_textIndex":"4"},"_actorName":"Zach","_actorParameterID":"8bf251ba-208e-41ca-aaf8-aeab906dab5e","_position":{"x":1050.0,"y":700.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"3"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Zach","_id":"8bf251ba-208e-41ca-aaf8-aeab906dab5e"}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -433, y: -504}
+    _zoomFactor: 0.99998415
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Zach
+    _id: 8bf251ba-208e-41ca-aaf8-aeab906dab5e
+    _actorObject: {fileID: 0}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: DT_TeddyBear_hospital
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"statement":{"_text":"hmmm\n"},"_actorName":"Zach","_actorParameterID":"1e842269-6981-4ba7-a12e-2ad4f8e1f1d5","_position":{"x":883.9896,"y":291.0164},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"0"},{"availableChoices":[{"statement":{"_text":"Hello"}},{"statement":{"_text":"a
+    bear?"}}],"_actorName":"Zach","_actorParameterID":"1e842269-6981-4ba7-a12e-2ad4f8e1f1d5","_position":{"x":885.0836,"y":392.7627},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"1"},{"statement":{"_text":"..."},"_actorName":"TeddyBear","_actorParameterID":"d0c68bbd-dc32-45c2-bf6d-5d0bfc4457d7","_position":{"x":797.5599,"y":561.2458},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"statement":{"_text":"ok"},"_actorName":"Zach","_actorParameterID":"1e842269-6981-4ba7-a12e-2ad4f8e1f1d5","_position":{"x":812.8765,"y":641.1113},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"3"},{"statement":{"_text":"......"},"_actorName":"TeddyBear","_actorParameterID":"d0c68bbd-dc32-45c2-bf6d-5d0bfc4457d7","_position":{"x":998.8644,"y":563.434},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"4"},{"statement":{"_text":"ok,
+    then"},"_actorName":"Zach","_actorParameterID":"1e842269-6981-4ba7-a12e-2ad4f8e1f1d5","_position":{"x":999.6324,"y":632.0328},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"5"},{"statement":{"_text":"Why
+    are you here?"},"_actorName":"Zach","_actorParameterID":"1e842269-6981-4ba7-a12e-2ad4f8e1f1d5","_position":{"x":704.7501,"y":222.9033},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"6"},{"statement":{"_text":"..."},"_actorName":"TeddyBear","_actorParameterID":"d0c68bbd-dc32-45c2-bf6d-5d0bfc4457d7","_position":{"x":710.2203,"y":336.6841},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"huh..."},"_actorName":"Zach","_actorParameterID":"1e842269-6981-4ba7-a12e-2ad4f8e1f1d5","_position":{"x":702.3779,"y":461.6877},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"8"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Zach","_id":"1e842269-6981-4ba7-a12e-2ad4f8e1f1d5","_actorObject":1},{"_keyName":"Teddy
+    Bear","_id":"d0c68bbd-dc32-45c2-bf6d-5d0bfc4457d7","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -111, y: -104}
+    _zoomFactor: 0.91403794
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Zach
+    _id: 1e842269-6981-4ba7-a12e-2ad4f8e1f1d5
+    _actorObject: {fileID: 0}
+  - _keyName: Teddy Bear
+    _id: d0c68bbd-dc32-45c2-bf6d-5d0bfc4457d7
+    _actorObject: {fileID: 0}

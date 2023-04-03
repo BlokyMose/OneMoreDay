@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: test_towel
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"conditions":[{"valueA":{"_name":"InventoryManager.HasItem(Towel)","_targetVariableID":"c3df0e65-1517-47b7-85a9-b8dc2e0db66d"},"valueB":{"_value":"true"},"$type":"NodeCanvas.Tasks.Conditions.CheckString"},null],"_position":{"x":800.0,"y":400.0},"$type":"NodeCanvas.DialogueTrees.MultipleConditionNode","$id":"0"},{"statement":{"_text":"I
+    have a towel [myString] www","_textIndex":"0"},"_actorName":"Zach","_actorParameterID":"2c5edd11-8b4d-4cd6-9474-b3458ba42beb","_position":{"x":800.0,"y":600.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"1"},{"statement":{"_text":"I
+    don''t have A TOWEL [myString]","_textIndex":"1"},"_actorName":"Zach","_actorParameterID":"2c5edd11-8b4d-4cd6-9474-b3458ba42beb","_position":{"x":1050.0,"y":600.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"InventoryManager.HasItem(Towel)":{"_value":"true","_name":"InventoryManager.HasItem(Towel)","_id":"c3df0e65-1517-47b7-85a9-b8dc2e0db66d","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"myString":{"_value":"aaaa","_name":"myString","_id":"07a56471-b5f2-49db-85aa-175dfe0b943e","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"actorParameters":[{"_keyName":"Zach","_id":"2c5edd11-8b4d-4cd6-9474-b3458ba42beb"}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -496, y: -255}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Zach
+    _id: 2c5edd11-8b4d-4cd6-9474-b3458ba42beb
+    _actorObject: {fileID: 0}

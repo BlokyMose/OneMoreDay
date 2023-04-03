@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: DialogueTree_Test
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"statement":{"_text":"hahhaaha"},"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":283.9113,"y":776.0743},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"0"},{"title":"Who
+    am i?","textIndex":"12","initialDelay":1.0,"availableChoices":[{"statement":{"_text":"Choose
+    one","_meta":"{1}{red}"}},{"statement":{"_text":"Choose Two!"}}],"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":276.9835,"y":864.1572},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"1"},{"statement":{"_text":"You
+    chose one!"},"_actorName":"NPC","_actorParameterID":"1b9eb1f1-8844-4095-80b8-7a7626d90f8a","_position":{"x":278.9952,"y":1060.156},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"statement":{"_text":"This
+    is a dialogue text"},"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":284.0,"y":1214.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"3"},{"statement":{"_text":"Number
+    TWO"},"_actorName":"NPC","_actorParameterID":"1b9eb1f1-8844-4095-80b8-7a7626d90f8a","_position":{"x":433.9952,"y":1057.156},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"4"},{"statement":{"_text":"Hello,
+    world!","_expression":3},"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":298.0,"y":212.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"5"},{"statement":{"_text":"Lol"},"_actorName":"NPC","_actorParameterID":"1b9eb1f1-8844-4095-80b8-7a7626d90f8a","_position":{"x":284.9822,"y":293.0085},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"6"},{"statement":{"_text":"Hello,
+    world!"},"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":291.97,"y":376.0179},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"lol"},"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":273.9507,"y":472.0309},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"8"},{"statement":{"_text":"Hello,
+    world!"},"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":269.9355,"y":581.0475},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"statement":{"_text":"lol"},"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":281.9248,"y":672.0591},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"10"},{"availableChoices":[{"statement":{"_text":"Choose
+    one"}},{"statement":{"_text":"Choose Two!"}}],"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":520.5804,"y":200.3693},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"11"},{"availableChoices":[{"statement":{"_text":"11111"}},{"statement":{"_text":"2222"}}],"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":480.4995,"y":413.9139},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"12"},{"availableChoices":[{"statement":{"_text":"aaaa"}},{"statement":{"_text":"bbbb"}}],"_actorName":"Zach","_actorParameterID":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_position":{"x":634.4982,"y":411.9146},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"13"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"10"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Zach","_id":"5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633","_actorObject":1},{"_keyName":"NPC","_id":"1b9eb1f1-8844-4095-80b8-7a7626d90f8a","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: 196, y: 48}
+    _zoomFactor: 0.5138804
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Zach
+    _id: 5b58c4f6-b053-4f0f-a3cd-b20ca8dfe633
+    _actorObject: {fileID: 0}
+  - _keyName: NPC
+    _id: 1b9eb1f1-8844-4095-80b8-7a7626d90f8a
+    _actorObject: {fileID: 0}

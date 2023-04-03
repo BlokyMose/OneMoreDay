@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO
+  m_EditorClassIdentifier: 
+  m_GroupName: SO
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 89d15277173e75c459e6e8932095bec8
+  m_SerializeEntries:
+  - m_GUID: fbc691a195d6b9e428c2f970b9880e5e
+    m_Address: Items
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - items
+  - m_GUID: 6de3195775765c347a122054d4fb85bc
+    m_Address: ChatContacts
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - chatContacts
+  - m_GUID: ffb4ae61eb01a1e4c8bced359de2e9e1
+    m_Address: Locations
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - locations
+  - m_GUID: f288b7b8f81ea1f48b0dffd04ea03e03
+    m_Address: LocationTags
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - locationTags
+  - m_GUID: 09ad1f0cc50ed9e429653530a67842b2
+    m_Address: ToDoTags
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - toDoTags
+  - m_GUID: 4cec06c4815093f4b8218619ff28db05
+    m_Address: GlobalStates
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - globalStateIDs
+    - globalStates
+  - m_GUID: 7ed06fbf9156a1a41b98ad70c58ea410
+    m_Address: GlobalVariableFuncs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - globalVariableFuncs
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f92b4eeecbb86714f8b1a650eb998f8a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c977f70d00367674a81398c39ff48dd7, type: 2}
+    - {fileID: 11400000, guid: a773c08a877556e478bc6aed25199e5f, type: 2}

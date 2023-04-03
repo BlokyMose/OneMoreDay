@@ -1,0 +1,66 @@
+[command] {name: Branch} {exportHasBreak:true}
+[label] {name:Branch} {width: 65}
+[parameter] {name:branchName} {type:string} {sgName: branch} {sgType: add} {width:0.2}
+
+
+[command] {name: Say} 
+[parameter] {name:actor} {type:string} {sgName: actor} {sgType: plural} {width:50} 
+[parameter] {name:statement} {type:string} {width:0.9} {height: 35}{alignment:upper_left}{isTextArea:true}
+[break] [label] {width: 85}
+[parameter] {name:expression} {type:string} {sgName:expression} {sgType: check} {width:0.2}
+[parameter] {name:gesture} {type:string}  {sgName:gesture} {sgType: check}  {width:0.2}
+[parameter] {name:duration} {type:float} {width:0.2} 
+
+[command] {name: Choices}
+[label] {name:Choices} {width: 65}
+[parameter] {name:title} {type:string} {width:0.7} 
+[break] [label] {width: 85}
+[list]
+[parameter] {name:text} {type:string} {width:0.8}
+[break] [label] {width: 105}
+[parameter] {name:varName} {type:string} {sgName: var} {sgType: plural} {width:0.2} {exportName:conditionStatement}
+[parameter] {name:checkKey} {type:string} {sgName: checkKey} {sgType: check} {width:0.05} {exportName:conditionStatement}
+[parameter] {name:value} {type:string} {sgName: var} {sgType: plural} {width:0.2} {exportName:conditionStatement}
+[parameter] {name:toBranchName} {type:string} {sgName: branch} {sgType: check} {width:0.2}
+[break] [label] {width: 85}
+
+
+[command] {name: Urgent}
+[label] {name:Urgent} {width: 65}
+[parameter] {name:title} {type:string} {width:0.7} 
+[parameter] {name:initialDelay} {type:float} {width:0.15} 
+[break] [label] {width: 85}
+[list]
+[parameter] {name:text} {type:string} {width:0.8}
+[break] [label] {width: 105}
+[parameter] {name:varName} {type:string} {sgName: var} {sgType: plural} {width:0.2} {exportName:conditionStatement}
+[parameter] {name:checkKey} {type:string} {sgName: checkKey} {sgType: check} {width:0.05} {exportName:conditionStatement}
+[parameter] {name:value} {type:string} {sgName: var} {sgType: plural} {width:0.2} {exportName:conditionStatement}
+[parameter] {name:toBranchName} {type:string} {sgName: branch} {sgType: check} {width:0.2}
+[break] [label] {width: 105}
+[parameter] {name:speed} {type:float} {width:0.2} 
+[parameter] {name:color} {type:string} {width:0.2} 
+[break] [label] {width: 85}
+
+[command] {name: GoTo} 
+[label] {name:GoTo} {width: 65}
+[parameter] {name:toBranchName} {type:string} {sgName: branch} {sgType: check} {width:0.25}
+
+[command] {name: If}
+[label] {name:If} {width: 65}
+[list]
+[parameter] {name:varName} {type:string} {sgName: var} {sgType: plural} {width:0.2} {exportName:conditionStatement}
+[parameter] {name:checkKey} {type:string} {sgName: checkKey} {sgType: check} {width:0.05} {exportName:conditionStatement}
+[parameter] {name:value} {type:string} {sgName: var} {sgType: plural} {width:0.2} {exportName:conditionStatement}
+[parameter] {name:toBranchName} {type:string} {sgName: branch} {sgType: check} {width:0.2}
+[break] [label] {width: 85}
+
+[command] {name: Set}
+[label] {name:Set} {width: 65}
+[parameter] {name:varName} {type:string} {sgName: var} {sgType: plural} {width:0.2} {exportName:setStatement}
+[parameter] {name:setKey} {type:string} {sgName: setKey} {sgType: check} {width:0.05} {alignment:center}{exportName:setStatement}
+[parameter] {name:value} {type:string} {sgName: var} {sgType: plural} {width:0.2}{exportName:setStatement}
+
+[command] {name: Once} 
+[label] {name:Once} {width: 65}
+[parameter] {name:toBranchName} {type:string} {sgName: branch} {sgType: check} {width:0.25}

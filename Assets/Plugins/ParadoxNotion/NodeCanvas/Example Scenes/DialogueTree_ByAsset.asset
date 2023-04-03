@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: DialogueTree_ByAsset
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"statement":{"_text":"So
+    what shall it be?"},"_actorName":"John","_UID":"c03acbed-186e-4f10-9b77-f0020280296d","_position":{"x":5501.0,"y":5015.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"0"},{"statement":{"_text":"I
+    say we take him down.\nWho cares?"},"_actorName":"Doe","_UID":"83ad2366-47c5-4410-b752-5e0e638360a1","_position":{"x":5490.0,"y":5099.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"1"},{"availableTime":6.0,"availableChoices":[{"isUnfolded":false,"statement":{"_text":"You
+    need me alive!"},"condition":{"valueA":{"_name":"aliveSaid","_targetVariableID":"f5fa86f2-c05a-4f4b-b29f-de988afd4b0d"},"valueB":{},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"}},{"isUnfolded":false,"statement":{"_text":"You
+    have no bullets left! Ha!"},"condition":{"valueA":{"_name":"bulletsSaid","_targetVariableID":"07045430-b698-4ba6-811f-fd9e4e4a61d5"},"valueB":{},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"}},{"isUnfolded":false,"statement":{"_text":"Go
+    on. I am not afraid."}}],"_actorName":"Player","_UID":"160f3e9c-9ad6-4510-a393-8f1bbea34c02","_tag":"MultipleChoice","_position":{"x":5461.0,"y":5204.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"2"},{"statement":{"_text":"Why
+    is that?"},"_actorName":"John","_UID":"d24d8e03-7f2c-46f8-aba0-8bf94b6ba22b","_position":{"x":5295.0,"y":5469.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"3"},{"statement":{"_text":"Um..."},"_actorName":"Player","_UID":"acdb9a5a-6742-4997-9db3-f92fd8fae458","_position":{"x":5283.0,"y":5579.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"4"},{"_action":{"boolVariable":{"_name":"aliveSaid","_targetVariableID":"f5fa86f2-c05a-4f4b-b29f-de988afd4b0d"},"$type":"NodeCanvas.Tasks.Actions.SetBoolean"},"_actorName":"Player","_UID":"646a1d44-201c-4d91-9cb5-9fc918fee92b","_position":{"x":5040.101,"y":5811.656},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"5"},{"_sourceNodeUID":"160f3e9c-9ad6-4510-a393-8f1bbea34c02","_UID":"28e31cf9-0420-4252-a21b-dce24ed769a2","_position":{"x":5236.0,"y":5746.0},"$type":"NodeCanvas.DialogueTrees.Jumper","$id":"6"},{"statement":{"_text":"Yeah
+    I bet!"},"_actorName":"John","_UID":"efdf3fce-4dc9-4ecd-99cb-dadd4dc35901","_position":{"x":5547.0,"y":5471.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"animationClip":{"_value":1},"waitActionFinish":false,"overrideAgent":{"_type":"UnityEngine.Animation","_value":2},"$type":"NodeCanvas.Tasks.Actions.PlayAnimationSimple"},"_actorName":"John","_UID":"ea6cfe1a-b1a8-4726-a6e1-1717429186cf","_position":{"x":5546.0,"y":5573.0},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"8"},{"_action":{"boolVariable":{"_name":"bulletsSaid","_targetVariableID":"07045430-b698-4ba6-811f-fd9e4e4a61d5"},"$type":"NodeCanvas.Tasks.Actions.SetBoolean"},"_actorName":"Player","_UID":"20b722c4-1d3e-4350-b9c0-094a68e1ee87","_position":{"x":5542.0,"y":5651.0},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_sourceNodeUID":"160f3e9c-9ad6-4510-a393-8f1bbea34c02","_position":{"x":5546.0,"y":5736.0},"$type":"NodeCanvas.DialogueTrees.Jumper","$id":"10"},{"_action":{"animationClip":{"_value":3},"waitActionFinish":false,"$type":"NodeCanvas.Tasks.Actions.PlayAnimationSimple"},"_actorName":"John","_UID":"4b32f2c4-2589-4611-bbfd-907f782e60b2","_position":{"x":5842.0,"y":5492.0},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"11"},{"statement":{"_text":"??
+    That was easy..."},"_actorName":"Doe","_UID":"8df2886f-27ec-47bc-abc2-af70791a9218","_position":{"x":5840.0,"y":5578.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"12"},{"availableTime":5.78,"availableChoices":[{"isUnfolded":false,"statement":{"_text":"I
+    am a choice..."},"condition":{"valueA":{"_name":""},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"}},{"statement":{"_text":"22222"},"condition":{"valueA":{"_name":"aliveSaid","_targetVariableID":"f5fa86f2-c05a-4f4b-b29f-de988afd4b0d"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"}}],"_actorName":"John","_actorParameterID":"a9fa02b0-a578-46b8-bc51-f42b60997f55","_position":{"x":6260.0,"y":5181.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"13"},{"statement":{"_text":"This
+    is a dialogue text"},"_position":{"x":6154.0,"y":5436.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"14"},{"_position":{"x":6363.0,"y":5435.0},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"13"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"13"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"aliveSaid":{"_name":"aliveSaid","_id":"f5fa86f2-c05a-4f4b-b29f-de988afd4b0d","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"bulletsSaid":{"_name":"bulletsSaid","_id":"07045430-b698-4ba6-811f-fd9e4e4a61d5","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"actorParameters":[{"_keyName":"John","_id":"a9fa02b0-a578-46b8-bc51-f42b60997f55","_actorObject":4},{"_keyName":"Doe","_id":"e844da15-967e-4e34-be83-037d694d29d3","_actorObject":5},{"_keyName":"Player","_id":"894ee11b-85e3-4749-beb1-55df2ecc0ea1","_actorObject":6}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 9d050ebeea5fa46adaf512596eda0e60, type: 3}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 6008cc211c6684caca78771af67e2602, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -4742, y: -4353}
+    _zoomFactor: 0.8766651
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: John
+    _id: a9fa02b0-a578-46b8-bc51-f42b60997f55
+    _actorObject: {fileID: 0}
+  - _keyName: Doe
+    _id: e844da15-967e-4e34-be83-037d694d29d3
+    _actorObject: {fileID: 0}
+  - _keyName: Player
+    _id: 894ee11b-85e3-4749-beb1-55df2ecc0ea1
+    _actorObject: {fileID: 0}

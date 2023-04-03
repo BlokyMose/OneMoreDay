@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c9c4685fb03fd43b907a18dd45d813, type: 3}
+  m_Name: DialogueSyntaxSettings_Default
+  m_EditorClassIdentifier: 
+  TOKEN_BRANCH_OPENING: <
+  TOKEN_BRANCH_CLOSING: '>'
+  TOKEN_COMMAND_OPENING: '['
+  TOKEN_COMMAND_CLOSING: ']'
+  TOKEN_COMMENT_OPENING: /*
+  TOKEN_COMMENT_CLOSING: '*/'
+  TOKEN_PARAMETER_OPENING: '{'
+  TOKEN_PARAMETER_CLOSING: '}'
+  TOKEN_PARAMETER_NAME: ':'
+  invalidTokensInBranchName:
+  - '}'
+  - =
+  - /
+  TOKEN_IS_EQUAL: ==
+  TOKEN_IS_NOT_EQUAL: '!='
+  TOKEN_IS_GREATER_THAN: '>'
+  TOKEN_IS_LESS_THAN: <
+  TOKEN_IS_GREATER_OR_EQUAL: '>='
+  TOKEN_IS_LESS_OR_EQUAL: <=
+  TOKEN_EQUAL: =
+  TOKEN_INCREMENT: +=
+  TOKEN_DECREMENT: -=
+  TOKEN_MULTIPLICATION: '*='
+  TOKEN_DIVISION: /=
+  COMMAND_BRANCH: BRANCH
+  COMMAND_CHOICES: CHOICES
+  COMMAND_URGENT: URGENT
+  COMMAND_GOTO: GOTO
+  COMMAND_IF: IF
+  COMMAND_SET: SET
+  COMMAND_ONCE: ONCE
+  START: START
+  PASS: PASS
+  italic:
+    oldOpenToken: '*'
+    oldCloseToken: '*'
+    newOpenToken: <i>
+    newCloseToken: </i>
+  bold:
+    oldOpenToken: '**'
+    oldCloseToken: '**'
+    newOpenToken: <b>
+    newCloseToken: </b>
+  underline:
+    oldOpenToken: __
+    oldCloseToken: __
+    newOpenToken: <u>
+    newCloseToken: </u>
+  strikethrough:
+    oldOpenToken: --
+    oldCloseToken: --
+    newOpenToken: <s>
+    newCloseToken: </s>
+  EXPRESSION_LISTENING: F0-9F-A4-94
+  EXPRESSION_SAD: F0-9F-99-81
+  EXPRESSION_HAPPY_BIT: F0-9F-99-82
+  EXPRESSION_HAPPY: F0-9F-98-81
+  EXPRESSION_CONFUSED: F0-9F-98-95
+  EXPRESSION_SURPRISED: F0-9F-98-AE
+  EXPRESSION_ANGRY: F0-9F-98-A0
+  EXPRESSION_UNTRUST: F0-9F-A4-A8
+  GESTURE_SPEAKING: speaking
+  GESTURE_NOD: nod
+  GESTURE_THINKING: thinking
+  GESTURE_PONDERING: pondering
+  GESTURE_THIS: this
+  GESTURE_NOIDEA: noIdea
+  GESTURE_LEANBACK: leanBack

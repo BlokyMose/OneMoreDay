@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef0c807b1f08a94448ecdb80815c8fbb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dialogueTree: {instanceID: 0}
+  - csv: {instanceID: 0}
+  - dtJSON: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

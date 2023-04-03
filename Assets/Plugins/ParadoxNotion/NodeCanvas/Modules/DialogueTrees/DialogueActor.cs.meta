@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3d71fb7c52372e244baf2e69a9d0d116
+labels:
+- Node
+- visualscripting
+- dialogue
+- Graph
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: c3b3073d72e7fe74cb31925d886d0390, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

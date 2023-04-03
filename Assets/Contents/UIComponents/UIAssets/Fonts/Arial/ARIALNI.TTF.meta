@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 213b0009aae24f14c88244e5e21c782a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Arial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50c25ede807d7a14288f4bae43c16161, type: 3}
+  - {fileID: 12800000, guid: d0a39bd542fea3a42a25aa5e918a4e1a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

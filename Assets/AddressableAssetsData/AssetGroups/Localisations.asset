@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localisations
+  m_EditorClassIdentifier: 
+  m_GroupName: Localisations
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fe386d0769b42ea4d84f3ad1bef2153c
+  m_SerializeEntries:
+  - m_GUID: a948cae95fda011419afd559ae74979b
+    m_Address: Assets/Contents/Localisations/DialogueAssetsCSV
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - dialogueAssetsCSV
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f92b4eeecbb86714f8b1a650eb998f8a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7b4a5a4994ce92840a4f279988152753, type: 2}
+    - {fileID: 11400000, guid: d8291f996766ca740b3e8f19a12f51b8, type: 2}

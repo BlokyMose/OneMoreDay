@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70edead6f5207464c90003a7997df597, type: 3}
+  m_Name: Clock
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 3dd718dc873bddf41959460b0a20fb0e, type: 3}
+  itemName: Clock
+  saveKey: Clock
+  description: 
+  storageSize: 1
+  tags: []
+  prefab: {fileID: 7136094001720620812, guid: c1cd870f48d7e0141951261891af75f3, type: 3}
+  followCursor: 1
+  gripMode: 1
+  isGripOnly: 0
+  offsetPosition: {x: 0, y: 0}
+  offsetRotation: {x: 0, y: 0, z: 0}
+  scaleMultiplier: {x: 1, y: 1, z: 1}

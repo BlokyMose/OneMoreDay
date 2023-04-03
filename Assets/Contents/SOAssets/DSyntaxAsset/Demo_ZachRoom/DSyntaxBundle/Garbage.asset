@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ff24f326bf8b24fb37cd0ecc28fbbf, type: 3}
+  m_Name: Garbage
+  m_EditorClassIdentifier: 
+  title: My Garbage
+  mode: 1
+  dSyntax: "[Zach] Cleaning day is any day now{\U0001F928}"
+  settings:
+    overrideMaxCharacters: -1
+    actorsAreFacingPlayer: 1
+  csv:
+    textAsset: {fileID: 4900000, guid: 9fbd210cde1e01d4eb408fee354c1907, type: 3}
+  saveFolder: Assets/Contents/SOAssets/DSyntaxAsset

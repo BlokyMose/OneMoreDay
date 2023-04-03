@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7985620554027449646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6319681914157069620}
+  - component: {fileID: 4079967485574683327}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6319681914157069620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985620554027449646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4079967485574683327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985620554027449646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d022e69b406ce7342bfa9d157715eb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 779277836593998730, guid: 7358150c162f5f041a48386f4430ffc6, type: 3}
+  language: 1
+  dialoguePrefab: {fileID: 6293933734484334026, guid: 50af1b517ce19184abec484f694180ca, type: 3}
+  timePrefab: {fileID: 7760215963172439868, guid: 7db80a7ff6fa90147aff9625b7fa1e43, type: 3}
+  inventoryManagerPrefab: {fileID: 3941258383309719906, guid: 6ed7482bf4036f348817bf7d5e64fb34, type: 3}
+  doomclockPrefab: {fileID: 4410107215827641252, guid: 445164ed560e04948bf57deb1bb7e341, type: 3}
+  phonePrefab: {fileID: 414767881573748892, guid: 2697a8a63afeaaa45acedcb802c7a931, type: 3}
+  pauseMenuPrefab: {fileID: 6364567116646637050, guid: eff9df133267fa94c943cb669e6884b5, type: 3}
+  urgentChoiceManagerPrefab: {fileID: 1679785882642812802, guid: d6e72918b350009438c923dbd840187a, type: 3}
+  sceneTransitionPrefab: {fileID: 2498520055741039432, guid: f344ce9ed4c7a5340b6cd66c5a834300, type: 3}
+  loadSceneMode: 1
+  firstGameScene: {fileID: 11400000, guid: f475036c81e1362448f5be028063cdd6, type: 2}
+  mainMenuScene: {fileID: 11400000, guid: 3043d0b7bc5b224409f44aa615dc50ba, type: 2}
+  itemsInProjectRef:
+    m_LabelString: items
+  charactersInProjectRef:
+    m_LabelString: characters
+  chatContactsInProjectRef:
+    m_LabelString: chatContacts
+  locationsInProjectRef:
+    m_LabelString: locations
+  locationTagsInProjectRef:
+    m_LabelString: locationTags
+  dialogueAssetsCSVInProjectRef:
+    m_LabelString: dialogueAssetsCSV
+  toDoTagsInProjectRef:
+    m_LabelString: toDoTags
+  globalStatesInProjectRef:
+    m_LabelString: globalStates
+  globalVariableFuncsInProjectRef:
+    m_LabelString: globalVariableFuncs

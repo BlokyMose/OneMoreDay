@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f326dd899fc9a4dba31b741ec4a9a4, type: 3}
+  m_Name: Loc_Proto_Tutorial
+  m_EditorClassIdentifier: 
+  scene: {fileID: 102900000, guid: 307b7b2f352b4634080256c00e6b9f96, type: 3}
+  sceneName: Demo_Proto_Tutorial
+  locationDisplayName: Tutorial
+  district: {fileID: 0}
+  coordinate: {x: 0, y: 0}
+  desc: 
+  images: []
+  initialIsUnlocked: 0

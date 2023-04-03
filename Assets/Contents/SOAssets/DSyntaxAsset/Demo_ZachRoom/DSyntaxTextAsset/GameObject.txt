@@ -1,0 +1,22 @@
+ 
+[BRANCH] {START}
+[Zach] {Where is my towel?}
+{duration : 2.2}
+[Gabriel] {Dunno!}
+{duration : 2.2}
+[Zach] {well}
+{duration : 2.2}
+[URGENT] {Title gue}
+Wow{START}
+NOO{branch_one}
+[IF] 
+var_a==0{branch_one}
+var_a!=0{START}
+ 
+[BRANCH] {branch_one}
+[CHOICES] {Choose!}
+Hello{START}
+Bye{branch_one}
+ 
+[BRANCH] {branch_2}
+[SET] {var_a=1}

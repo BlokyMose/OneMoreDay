@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: testGlobalVariable
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"conditions":[{"valueA":{"_name":"zachTalkedWith","_targetVariableID":"e7efb22e-e2ff-42f0-a770-3e4d9567d410"},"valueB":{"_value":"sister"},"$type":"NodeCanvas.Tasks.Conditions.CheckString"},{"valueA":{"_name":"zachTalkedWith","_targetVariableID":"e7efb22e-e2ff-42f0-a770-3e4d9567d410"},"valueB":{"_value":"father"},"$type":"NodeCanvas.Tasks.Conditions.CheckString"}],"_position":{"x":800.0,"y":400.0},"$type":"NodeCanvas.DialogueTrees.MultipleConditionNode","$id":"0"},{"statement":{"_text":"I
+    talked with my sister"},"_actorName":"Zach","_actorParameterID":"6f217658-464e-4e3c-9717-6ff0ea735af9","_position":{"x":789.0,"y":600.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"1"},{"statement":{"_text":"I
+    Talked with my father"},"_actorName":"Zach","_actorParameterID":"6f217658-464e-4e3c-9717-6ff0ea735af9","_position":{"x":1050.0,"y":600.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"zachTalkedWith":{"_value":"father","_name":"zachTalkedWith","_id":"e7efb22e-e2ff-42f0-a770-3e4d9567d410","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"actorParameters":[{"_keyName":"Zach","_id":"6f217658-464e-4e3c-9717-6ff0ea735af9","_actorObject":1}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -353, y: -226}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Zach
+    _id: 6f217658-464e-4e3c-9717-6ff0ea735af9
+    _actorObject: {fileID: 0}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: quest_
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"conditions":[{"valueA":{"_name":"test_q_getBox","_targetVariableID":"8d01f010-95d1-401d-96b9-4881a9c78eb8"},"valueB":{"_value":"true"},"$type":"NodeCanvas.Tasks.Conditions.CheckString"},{"valueA":{"_name":"test_q_getBox","_targetVariableID":"8d01f010-95d1-401d-96b9-4881a9c78eb8"},"valueB":{"_value":"false"},"$type":"NodeCanvas.Tasks.Conditions.CheckString"}],"_position":{"x":800.0,"y":400.0},"$type":"NodeCanvas.DialogueTrees.MultipleConditionNode","$id":"0"},{"statement":{"_text":"Thanks!","_textIndex":"0"},"_actorName":"Gabriel","_actorParameterID":"0aa58c7d-d9dd-4581-a448-e7f390513047","_position":{"x":800.0,"y":600.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"1"},{"statement":{"_text":"And
+    I thought you wouldn''t do it","_textIndex":"1"},"_actorName":"Gabriel","_actorParameterID":"0aa58c7d-d9dd-4581-a448-e7f390513047","_position":{"x":1050.0,"y":600.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"statement":{"_text":"Whatever","_textIndex":"2"},"_actorName":"Zach","_actorParameterID":"a0f5745f-fff0-4f81-b4eb-ec8f30b0ac42","_position":{"x":1050.0,"y":700.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"3"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"test_q_getBox":{"_value":"true","_name":"test_q_getBox","_id":"8d01f010-95d1-401d-96b9-4881a9c78eb8","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"actorParameters":[{"_keyName":"Gabriel","_id":"0aa58c7d-d9dd-4581-a448-e7f390513047"},{"_keyName":"Zach","_id":"a0f5745f-fff0-4f81-b4eb-ec8f30b0ac42"}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -138, y: -223}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  actorParameters:
+  - _keyName: Gabriel
+    _id: 0aa58c7d-d9dd-4581-a448-e7f390513047
+    _actorObject: {fileID: 0}
+  - _keyName: Zach
+    _id: a0f5745f-fff0-4f81-b4eb-ec8f30b0ac42
+    _actorObject: {fileID: 0}

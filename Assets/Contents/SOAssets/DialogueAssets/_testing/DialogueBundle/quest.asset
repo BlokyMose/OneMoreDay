@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0c807b1f08a94448ecdb80815c8fbb, type: 3}
+  m_Name: quest
+  m_EditorClassIdentifier: 
+  dialogueTree: {fileID: 11400000, guid: 2c8c05fd866f29142a2da8d333a9854e, type: 2}
+  settings:
+    overrideMaxCharacters: -1
+    actorsAreFacingPlayer: 1
+  csv: {fileID: 4900000, guid: 89b51e4751d338b44a179da5f342e537, type: 3}
+  dtJSON: {fileID: 0}
+  dSyntax: "/*DIALOGUE - ACTORNAME : TITLE*/ [BRANCH] {START} [Gabriel] Zach, I need
+    you to do something {\U0001F601}{speaking} [Zach] wha {\U0001F928} [Gabriel]
+    Get me a box in the 2nd floor, please [CHOICES] {Shoud I help him get a box?}
+    Nah {1} Sure {2} [BRANCH] {1} [Zach] Why would I do that? [Gabriel] C'mon [Zach]
+    no. [SET] test_q_getBox = false [BRANCH] {2} [Zach] Fine [Gabriel] Off you go!
+    {\U0001F601}{this} [SET] test_q_getBox = true /*DialogueSyntax Tokens*/ /* Expressions:
+    Listening {\U0001F914} Sad {\U0001F626} HappyBit {\U0001F642} Happy {\U0001F601}
+    Confused {\U0001F615} Surprised {\U0001F62E} Angry {\U0001F620} Untrust {\U0001F928}
+    */ /* Gestures: {speaking} {nod} {thinking} {pondering} {this} {noIdea} {leanBack}
+    */ /* Commands: [GOTO] [CHOICES] */"

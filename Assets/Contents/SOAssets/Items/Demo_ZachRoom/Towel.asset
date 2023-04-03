@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70edead6f5207464c90003a7997df597, type: 3}
+  m_Name: Towel
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: aac8020616dab7c4a97796ac89ca49c2, type: 3}
+  itemName: Towel
+  saveKey: Towel
+  description: 
+  storageSize: 1
+  tags:
+  - tag: {fileID: 11400000, guid: d1e39d6b4bea09344ba31947aa2a202b, type: 2}
+    sprite: {fileID: 0}
+  prefab: {fileID: 1547367015230832499, guid: 5036cf4e5a00e7446b9d0dc1fb9e163a, type: 3}
+  followCursor: 0
+  gripMode: 1
+  isGripOnly: 0
+  offsetPosition: {x: 0, y: 0}
+  offsetRotation: {x: 0, y: 0, z: 0}
+  scaleMultiplier: {x: 1, y: 1, z: 1}
+  actionPrefab: {fileID: 476977436305009783, guid: e77d8d43623e70f43b5d7319f0012eb4, type: 3}
